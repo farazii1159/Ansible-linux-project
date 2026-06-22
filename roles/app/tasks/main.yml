@@ -1,0 +1,8 @@
+---
+- name: Deploy custom website
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'
