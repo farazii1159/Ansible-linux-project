@@ -579,6 +579,10 @@ http://54.83.111.68
 
 ---
 
+![Project Screenshot](image/ec2_anisible.jpg)
+
+---
+
 # Author
 
 **Faraz Shabbir**
