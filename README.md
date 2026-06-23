@@ -91,7 +91,7 @@ Successfully created an Ubuntu EC2 instance with a public IP.
 Example:
 
 ```text
-54.91.43.112
+54.83.111.68
 ```
 
 ---
@@ -155,7 +155,7 @@ The private key authenticates the user securely.
 SSH connection:
 
 ```bash
-ssh -i "anisible-key.pem" ubuntu@54.91.43.112
+ssh -i "anisible-key.pem" ubuntu@54.83.111.68
 ```
 
 ## Command Explanation
@@ -165,7 +165,7 @@ ssh -i "anisible-key.pem" ubuntu@54.91.43.112
 | ssh          | Opens secure shell connection |
 | -i           | Specifies private key         |
 | ubuntu       | Username                      |
-| 54.91.43.112 | Target server IP              |
+| 54.83.111.68 | Target server IP              |
 
 ## Output
 
@@ -321,7 +321,7 @@ inventory.ini
 
 ```ini
 [web]
-54.91.43.112 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/anisible-key.pem
+54.83.111.68 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/anisible-key.pem
 ```
 
 ## Explanation
@@ -368,7 +368,7 @@ To confirm:
 ## Output
 
 ```json
-54.91.43.112 | SUCCESS => {
+54.83.111.68 | SUCCESS => {
     "ping": "pong"
 }
 ```
@@ -471,7 +471,7 @@ Nginx is:
 Nginx became accessible on:
 
 ```text
-http://54.91.43.112
+http://54.83.111.68
 ```
 
 ---
@@ -574,7 +574,7 @@ Through this project I learned:
 # Live Project URL & Screenshot
 
 ```text
-http://54.91.43.112
+http://54.83.111.68
 ```
 
 ---
