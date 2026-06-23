@@ -571,7 +571,7 @@ Through this project I learned:
 
 ---
 
-# Live Project URL
+# Live Project URL & Screenshot
 
 ```text
 http://54.91.43.112
@@ -581,6 +581,8 @@ http://54.91.43.112
 
 # Author
 
-**Faraz**
+**Faraz Shabbir**
 
 DevOps Enthusiast | Linux Administrator | Cloud Learner
+🔗 LinkedIn  https://www.linkedin.com/in/faraz-shabbir-5a9227344/
+
