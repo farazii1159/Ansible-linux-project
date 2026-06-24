@@ -88,10 +88,10 @@ The EC2 instance serves as:
 
 Successfully created an Ubuntu EC2 instance with a public IP.
 
-Example:
+Example Output (According to your own PUBLIC IP):
 
 ```text
-54.83.111.68
+54.83.111.68 
 ```
 
 ---
@@ -153,6 +153,8 @@ The private key authenticates the user securely.
 ## Commands Used
 
 SSH connection:
+
+54.83.111.68 ---> (Replace with your PUBLIC IP)
 
 ```bash
 ssh -i "anisible-key.pem" ubuntu@54.83.111.68
@@ -318,7 +320,7 @@ inventory.ini
 ```
 
 ## Configuration
-
+54.83.111.68 ---> (Replace with your PUBLIC IP)
 ```ini
 [web]
 54.83.111.68 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/anisible-key.pem
@@ -366,7 +368,7 @@ To confirm:
 * Ansible communication
 
 ## Output
-
+[54.83.111.68] ---> (Ouput shown according to your PUBLIC IP)
 ```json
 54.83.111.68 | SUCCESS => {
     "ping": "pong"
@@ -468,7 +470,7 @@ Nginx is:
 
 ## Output
 
-Nginx became accessible on:
+Nginx became accessible on (YOUR OWN PUBLIC IP):
 
 ```text
 http://54.83.111.68
@@ -572,7 +574,7 @@ Through this project I learned:
 ---
 
 # Live Project URL & Screenshot
-
+54.83.111.68 ---> (To view Live Output Replace with your PUBLIC IP)
 ```text
 http://54.83.111.68
 ```
