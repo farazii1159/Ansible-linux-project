@@ -316,7 +316,7 @@ Tell Ansible which servers to manage.
 ## File
 
 ```text
-inventory.ini
+nano inventory.ini
 ```
 
 ## Configuration
@@ -385,8 +385,10 @@ Automate server configuration.
 
 ## File
 
+TO CHECK after checking the file `ctrl + X` to Exit
+
 ```text
-setup.yml
+nano setup.yml
 ```
 
 ## Content
@@ -485,9 +487,10 @@ http://54.83.111.68
 Deploy custom website automatically.
 
 ## File
+TO CHECK
 
 ```text
-roles/app/files/index.html
+cat roles/app/files/index.html
 ```
 
 ## Ansible Task
